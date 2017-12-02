@@ -1,0 +1,6 @@
+/.project
+/.pydevproject
+/testttt.py
+/__pycache__/
+/myUtil/__pycache__/
+/models/__pycache__/
