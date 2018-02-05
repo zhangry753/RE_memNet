@@ -63,7 +63,7 @@ def multi_classify(data_lines, out_dir):
 
 if __name__ == '__main__':
     out_dir = r'C:\Users\zry\Desktop\abc'
-    semEval_path = r'D:\myDoc\study\语料\SemEval2007_task4\train\vectors_origin\origin_senna.txt'
+    semEval_path = r'D:\myDoc\study\语料\SemEval2007_task4\traitraintors_origin\origin_senna.txt'
     semEval_lines = open(semEval_path).readlines()
     output_file = open(r'C:\Users\zry\Desktop\1.txt','w')
     output_file2 = open(r'C:\Users\zry\Desktop\2.txt','w')

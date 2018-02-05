@@ -5,8 +5,7 @@ Created on 2017年3月23日
 '''
 
 import tensorflow as tf
-import train as dnc_train
-
+impfrom ntm_test import train as dnc_train
 
 class Dnc:
     def __init__(self, data_dir=None):
@@ -76,7 +75,7 @@ class Dnc:
     def train(self, loss, learning_rate=None):
         if learning_rate!=None:
             self.learning_rate = learning_rate
-#         optimizer = tf.train.GradientDescentOptimizer(learning_rate=self.learning_rate).minimize(loss)
+#         optimizer = tf.train.GradientDescentOptimizertrainning_rate=self.learning_rate).minimize(loss)
         optimizer = tf.train.AdamOptimizer(learning_rate=self.learning_rate).minimize(loss)
         init = tf.global_variables_initializer()
         return optimizer, init

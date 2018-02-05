@@ -26,7 +26,7 @@ class Neural_Turing_machine(snt.RNNCore):
     self._mem_len = memory_length
         
     
-  def _build(self, inputs, prev_state):
+  def _build(self, inputs, prev_state, scope=None):
     prev_memory = prev_state.memory
     prev_memory_output = prev_state.memory_output
     prev_controller_state = prev_state.controller_state

@@ -7,7 +7,7 @@ Created on 2017年11月17日
 # Size of memory.
 memory_size=10 
 # capacity of memory.
-memory_length = 10 
+memory_length = 5 
 # Size of register.
 register_size = 10 
 # number of registers.
@@ -23,17 +23,17 @@ parameter_num = 3
 
 # Task parameters
 # Batch size for training.
-batch_size = 30 
+batch_size = 20 
 # Dimensionality of each vector to copy
-num_bits = 10 
+num_bits = 6 
 #Lower limit on number of vectors in the observation pattern to copy
-min_length = 1 
+min_length = 3 
 # Upper limit on number of vectors in the observation pattern to copy
 max_length = 5
 # Lower limit on number of copy repeats.
-min_repeats = 1
+min_repeats = 10
 # Upper limit on number of copy repeats.                        
-max_repeats = 1
+max_repeats = 10
                         
 # Optimizer parameters.
 # Gradient clipping norm limit.
@@ -46,7 +46,7 @@ learning_rate_L2 = 0.001
 optimizer_epsilon = 1e-10
                     
 # Training options.
-# Number of iterations to train for.
+# Number of iterations to tratrainr.
 num_training_iterations = int(1e10)
 # Iterations between reports (samples, valid loss).            
 report_interval = 200

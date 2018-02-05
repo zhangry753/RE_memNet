@@ -21,9 +21,9 @@ class Batch_reader(object):
         train_set_type = 'SemEval2010_task8'
         origin_data_lines = open(r'D:\myDoc\study\语料\\'+train_set_type+r'\train\vectors_origin\origin_'+wordVec_type+'.txt').readlines()
         test_data_lines = open(r'D:\myDoc\study\语料\\'+train_set_type+r'\test\test_file_'+wordVec_type+'.txt').readlines()
-#         positive_data_lines = open(r'D:\myDoc\study\语料\\'+train_set_type+r'\train\vectors_bi_classify\positive_'+wordVec_type+'.txt').readlines()
-#         negative_data_lines = open(r'D:\myDoc\study\语料\\'+train_set_type+r'\train\vectors_bi_classify\negative_'+wordVec_type+'.txt').readlines()
-#         classify_data_dir = r'D:\myDoc\study\语料\\'+train_set_type+r'\train\vectors_multi_classify'
+#         positive_data_lines = open(r'D:\myDoc\study\语料\\'+train_set_type+r'\train\trainrs_bi_classify\positive_'+wordVec_type+'.txt').readlines()
+#         negative_data_lines = open(r'D:\myDoc\study\语料\\'+train_set_type+r'\train\vtrains_bi_classify\negative_'+wordVec_type+'.txt').readlines()
+#         classify_data_dir = r'D:\myDoc\study\语料\\'+train_set_type+r'\train\vetrain_multi_classify'
 #         classify_data_lines = {'Other':[],'Cause-Effect':[],'Product-Producer':[],'Entity-Origin':[],'Instrument-Agency':[],'Component-Whole':[],'Content-Container':[],'Entity-Destination':[],'Member-Collection':[],'Message-Topic':[]}
 #         classify_data_lines = {'Other':[],'Cause-Effect':[],'Instrument-Agency':[],'Product-Producer':[],'Origin-Entity':[],'Theme-Tool':[],'Part-Whole':[],'Content-Container':[]}
 #         for rel_type in classify_data_lines.keys():
